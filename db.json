@@ -1,9 +1,121 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "dishes": [
+    {
+      "id": "1",
+      "name": "Spaghetti",
+      "prepLevel": "Easy",
+      "dishType": "Main",
+      "createdOn": "2023-07-15T00:00:00Z",
+      "modifiedOn": "2023-07-15T00:00:00Z",
+      "dishIngredients": [
+        { "dishId": "1", "ingredientId": "1" },
+        { "dishId": "1", "ingredientId": "2" }
+      ],
+      "mealPlanEntries": [
+        {
+          "id": "1",
+          "dayOfMeal": "2023-07-16T00:00:00Z",
+          "dishId": "1",
+          "weeklyMenuId": "1"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Chicken Alfredo",
+      "prepLevel": "Medium",
+      "dishType": "Main",
+      "createdOn": "2023-07-15T00:00:00Z",
+      "modifiedOn": "2023-07-15T00:00:00Z",
+      "dishIngredients": [
+        { "dishId": "2", "ingredientId": "1" },
+        { "dishId": "2", "ingredientId": "2" }
+      ],
+      "mealPlanEntries": [
+        {
+          "id": "2",
+          "dayOfMeal": "2023-07-17T00:00:00Z",
+          "dishId": "2",
+          "weeklyMenuId": "1"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Chicken Parmesan",
+      "prepLevel": "Hard",
+      "dishType": "Main",
+      "createdOn": "2023-07-15T00:00:00Z",
+      "modifiedOn": "2023-07-15T00:00:00Z",
+      "dishIngredients": [
+        { "dishId": "3", "ingredientId": "1" },
+        { "dishId": "3", "ingredientId": "2" }
+      ],
+      "mealPlanEntries": [
+        {
+          "id": "3",
+          "dayOfMeal": "2023-07-18T00:00:00Z",
+          "dishId": "3",
+          "weeklyMenuId": "1"
+        }
+      ]
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "ingredients": [
+    {
+      "id": "1",
+      "name": "Pasta",
+      "createdOn": "2023-07-15T00:00:00Z",
+      "modifiedOn": "2023-07-15T00:00:00Z",
+      "dishIngredients": [{ "dishId": "1", "ingredientId": "1" }],
+      "groceryListIngredients": []
+    },
+    {
+      "id": "2",
+      "name": "Tomato Sauce",
+      "createdOn": "2023-07-15T00:00:00Z",
+      "modifiedOn": "2023-07-15T00:00:00Z",
+      "dishIngredients": [{ "dishId": "1", "ingredientId": "2" }],
+      "groceryListIngredients": []
+    }
   ],
-  "profile": { "name": "typicode" }
+  "groceryLists": [
+    {
+      "id": "1",
+      "description": "Weekly Grocery List",
+      "active": true,
+      "createdOn": "2023-07-15T00:00:00Z",
+      "modifiedOn": "2023-07-15T00:00:00Z",
+      "weeklyMenuId": "1",
+      "groceryListIngredients": [],
+      "groceryListRandomItems": []
+    }
+  ],
+  "weeklyMenus": [
+    {
+      "id": "1",
+      "active": true,
+      "weekStartDate": "2023-07-14T00:00:00Z",
+      "createdOn": "2023-07-14T00:00:00Z",
+      "modifiedOn": "2023-07-14T00:00:00Z",
+      "groceryList": {
+        "id": "1",
+        "description": "Weekly Grocery List",
+        "active": true,
+        "createdOn": "2023-07-15T00:00:00Z",
+        "modifiedOn": "2023-07-15T00:00:00Z",
+        "weeklyMenuId": "1",
+        "groceryListIngredients": [],
+        "groceryListRandomItems": []
+      },
+      "mealPlanEntries": [
+        {
+          "id": "1",
+          "dayOfMeal": "2023-07-16T00:00:00Z",
+          "dishId": "1",
+          "weeklyMenuId": "1"
+        }
+      ]
+    }
+  ]
 }
