@@ -1,4 +1,11 @@
 {
+  "users": [
+    {
+      "email": "user@example.com",
+      "password": "password",
+      "name": "John Doe"
+    }
+  ],
   "dishes": [
     {
       "id": "1",
