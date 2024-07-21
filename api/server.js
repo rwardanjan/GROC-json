@@ -1,3 +1,4 @@
+// See https://github.com/typicode/json-server#module
 const jsonServer = require("json-server");
 const auth = require("json-server-auth");
 const cors = require("cors");
@@ -29,6 +30,9 @@ server.use(
   })
 );
 server.use(router);
+server.listen(3000, () => {
+  console.log("JSON Server is running");
+});
 
-// Instead of listening on a port, we export the server for Vercel
+// Export the Server API
 module.exports = server;
