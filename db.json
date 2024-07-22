@@ -135,6 +135,43 @@
           "weeklyMenuId": "1"
         }
       ]
+    },
+    {
+      "id": "2",
+      "active": false,
+      "weekStartDate": "2024-07-22",
+      "createdOn": "2023-07-14T00:00:00Z",
+      "modifiedOn": "2023-07-14T00:00:00Z",
+      "groceryList": {
+        "id": "1",
+        "description": "Weekly Grocery List",
+        "active": false,
+        "createdOn": "2023-07-15T00:00:00Z",
+        "modifiedOn": "2023-07-15T00:00:00Z",
+        "weeklyMenuId": "1",
+        "groceryListIngredients": [],
+        "groceryListRandomItems": []
+      },
+      "mealPlanEntries": [
+        {
+          "id": "1",
+          "dayOfMeal": "2024-07-22",
+          "dishId": "1",
+          "weeklyMenuId": "1"
+        },
+        {
+          "id": "2",
+          "dayOfMeal": "2024-07-24",
+          "dishId": "2",
+          "weeklyMenuId": "1"
+        },
+        {
+          "id": "3",
+          "dayOfMeal": "2024-07-24",
+          "dishId": "3",
+          "weeklyMenuId": "1"
+        }
+      ]
     }
   ]
 }
