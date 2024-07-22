@@ -102,7 +102,7 @@
     {
       "id": "1",
       "active": true,
-      "weekStartDate": "2023-07-14T00:00:00Z",
+      "weekStartDate": "2024-07-22",
       "createdOn": "2023-07-14T00:00:00Z",
       "modifiedOn": "2023-07-14T00:00:00Z",
       "groceryList": {
@@ -118,8 +118,20 @@
       "mealPlanEntries": [
         {
           "id": "1",
-          "dayOfMeal": "2023-07-16T00:00:00Z",
+          "dayOfMeal": "2024-07-22",
           "dishId": "1",
+          "weeklyMenuId": "1"
+        },
+        {
+          "id": "2",
+          "dayOfMeal": "2024-07-24",
+          "dishId": "2",
+          "weeklyMenuId": "1"
+        },
+        {
+          "id": "3",
+          "dayOfMeal": "2024-07-24",
+          "dishId": "3",
           "weeklyMenuId": "1"
         }
       ]
