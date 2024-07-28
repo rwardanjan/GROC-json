@@ -66,6 +66,126 @@
           "weeklyMenuId": "1"
         }
       ]
+    },
+    {
+      "id": "4",
+      "name": "Chicken Marsala",
+      "prepLevel": "Medium",
+      "dishType": "Main",
+      "createdOn": "2023-07-15T00:00:00Z",
+      "modifiedOn": "2023-07-15T00:00:00Z",
+      "dishIngredients": [
+        { "dishId": "4", "ingredientId": "1" },
+        { "dishId": "4", "ingredientId": "2" }
+      ],
+      "mealPlanEntries": [
+        {
+          "id": "4",
+          "dayOfMeal": "2023-07-19T00:00:00Z",
+          "dishId": "4",
+          "weeklyMenuId": "1"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Chicken Piccata",
+      "prepLevel": "Medium",
+      "dishType": "Main",
+      "createdOn": "2023-07-15T00:00:00Z",
+      "modifiedOn": "2023-07-15T00:00:00Z",
+      "dishIngredients": [
+        { "dishId": "5", "ingredientId": "1" },
+        { "dishId": "5", "ingredientId": "2" }
+      ],
+      "mealPlanEntries": [
+        {
+          "id": "5",
+          "dayOfMeal": "2023-07-20T00:00:00Z",
+          "dishId": "5",
+          "weeklyMenuId": "1"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Chicken Cacciatore",
+      "prepLevel": "Medium",
+      "dishType": "Main",
+      "createdOn": "2023-07-15T00:00:00Z",
+      "modifiedOn": "2023-07-15T00:00:00Z",
+      "dishIngredients": [
+        { "dishId": "6", "ingredientId": "1" },
+        { "dishId": "6", "ingredientId": "2" }
+      ],
+      "mealPlanEntries": [
+        {
+          "id": "6",
+          "dayOfMeal": "2023-07-21T00:00:00Z",
+          "dishId": "6",
+          "weeklyMenuId": "1"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Chicken Fettuccine",
+      "prepLevel": "Medium",
+      "dishType": "Main",
+      "createdOn": "2023-07-15T00:00:00Z",
+      "modifiedOn": "2023-07-15T00:00:00Z",
+      "dishIngredients": [
+        { "dishId": "7", "ingredientId": "1" },
+        { "dishId": "7", "ingredientId": "2" }
+      ],
+      "mealPlanEntries": [
+        {
+          "id": "7",
+          "dayOfMeal": "2023-07-22T00:00:00Z",
+          "dishId": "7",
+          "weeklyMenuId": "1"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Chicken Carbonara",
+      "prepLevel": "Medium",
+      "dishType": "Main",
+      "createdOn": "2023-07-15T00:00:00Z",
+      "modifiedOn": "2023-07-15T00:00:00Z",
+      "dishIngredients": [
+        { "dishId": "8", "ingredientId": "1" },
+        { "dishId": "8", "ingredientId": "2" }
+      ],
+      "mealPlanEntries": [
+        {
+          "id": "8",
+          "dayOfMeal": "2023-07-23T00:00:00Z",
+          "dishId": "8",
+          "weeklyMenuId": "1"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Chicken Tetrazzini",
+      "prepLevel": "Medium",
+      "dishType": "Main",
+      "createdOn": "2023-07-15T00:00:00Z",
+      "modifiedOn": "2023-07-15T00:00:00Z",
+      "dishIngredients": [
+        { "dishId": "9", "ingredientId": "1" },
+        { "dishId": "9", "ingredientId": "2" }
+      ],
+      "mealPlanEntries": [
+        {
+          "id": "9",
+          "dayOfMeal": "2023-07-24T00:00:00Z",
+          "dishId": "9",
+          "weeklyMenuId": "1"
+        }
+      ]
     }
   ],
   "ingredients": [
